@@ -1,4 +1,4 @@
-To build a project in local environment:
+***To build a project in local environment:
 1. Install Drupal 11 using lando: https://docs.lando.dev/plugins/drupal/getting-started.html
 2. Go to root project directory and run `lando composer install`
 3. If everything went well you should see bare Drupal 11 installation with Olivero theme enabled and Mahi theme installed:
