@@ -1,0 +1,20 @@
+uuid: 0719eeeb-e543-48e4-a59f-479208353704
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mahi
+_core:
+  default_config_hash: cRYQm774QG7qaYT0wk4ptn-GMhoe4ErDyexgsj4TKfQ
+id: mahi_page_title
+theme: mahi
+region: page_header
+weight: -13
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
