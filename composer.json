@@ -22,6 +22,8 @@
         "drupal/core-recommended": "^11.0",
         "drupal/devel": "^5.3",
         "drupal/devel_php": "^1.7",
+        "drupal/gin": "^3.0@rc",
+        "drupal/gin_toolbar": "^1.0@rc",
         "drupal/imce": "^3.1",
         "drupal/mahi": "^1.1",
         "drush/drush": "^13.3"
@@ -38,7 +40,9 @@
             "drupal/core-project-message": true,
             "phpstan/extension-installer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "cweagans/composer-patches": true,
+            "oomphinc/composer-installers-extender": true
         },
         "sort-packages": true
     },
