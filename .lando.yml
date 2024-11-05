@@ -3,6 +3,22 @@ recipe: drupal11
 config:
   webroot: web
 services:
+  pma:
+    type: phpmyadmin
+    hosts:
+      - database
+  database:
+    type: mariadb:10.6
+    portforward: true
+    creds:
+      database: 'drupal11'
+      password: 'drupal11'
+      user: 'drupal11'
+      host: 'database'
+      port: '3306'
+    run:
+      # Creates the databases as root since the app user does not have those privileges
+      - mysql -uroot -e "CREATE DATABASE IF NOT EXISTS drupal; GRANT ALL PRIVILEGES ON drupal.* TO 'drupal'@'%' IDENTIFIED by 'drupal';"
   appserver:
     xdebug: 'debug'
     scanner: false
