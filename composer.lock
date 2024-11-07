@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7f920de316f7d93ade1aa2e4c340112",
+    "content-hash": "75c5860e83b4e773c3a3bf2b9964b6c3",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -64,11 +64,11 @@
         },
         {
             "name": "chi-teck/drupal-code-generator",
-            "version": "4.1.0",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Chi-teck/drupal-code-generator.git",
-                "reference": "9a5501beb1a7aa2400afa5e5679bf21c526c497c"
+                "reference": "00b6c6b94f8aa4657c78044d37a6e1da56a223c7"
             },
             "dist": {
                 "type": "zip",
@@ -618,7 +618,7 @@
             "description": "Format text by applying transformations provided by plug-in formatters.",
             "support": {
                 "issues": "https://github.com/consolidation/output-formatters/issues",
-                "source": "https://github.com/consolidation/output-formatters/tree/4.6.0"
+                "source": "https://github.com/consolidation/output-formatters/tree/4.5.0"
             },
             "time": "2024-10-18T14:02:48+00:00"
         },
