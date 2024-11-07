@@ -17,6 +17,8 @@ module:
   datetime: 0
   dblog: 0
   devel: 0
+  devel_generate: 0
+  devel_php: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -26,7 +28,10 @@ module:
   help: 0
   history: 0
   image: 0
+  imce: 0
   link: 0
+  media: 0
+  media_library: 0
   menu_link_content: 0
   menu_ui: 0
   mysql: 0
@@ -51,4 +56,5 @@ theme:
   claro: 0
   stable9: 0
   mahi: 0
+  gin: 0
 profile: standard

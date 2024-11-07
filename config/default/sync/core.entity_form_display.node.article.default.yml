@@ -5,13 +5,16 @@ dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_file_upload
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.thumbnail
     - node.type.article
   module:
     - comment
+    - file
     - image
+    - imce
     - path
     - text
 _core:
@@ -43,6 +46,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_file_upload:
+    type: file_generic
+    weight: 121
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
   field_image:
     type: image_image
     weight: 1
@@ -50,7 +60,9 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
-    third_party_settings: {  }
+    third_party_settings:
+      imce:
+        enabled: true
   field_tags:
     type: entity_reference_autocomplete_tags
     weight: 3

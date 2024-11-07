@@ -6,6 +6,10 @@
 # https://www.drupal.org/docs/develop/using-composer
 
 # Ignore configuration files that may contain sensitive information
+<<<<<<< HEAD
+=======
+/web/sites/*/*services*.yml
+>>>>>>> bdfe9f99c83cfa3b9a6645251844996af152136f
 /web/modules/contrib
 
 # Ignore paths that may contain user-generated content
@@ -14,6 +18,7 @@
 /web/sites/*/private
 /web/sites/*/files-public
 /web/sites/*/files-private
+/private_files
 
 # Ignore paths that may contain temporary files
 /web/sites/*/translations
